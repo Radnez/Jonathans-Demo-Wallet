@@ -1,0 +1,70 @@
+name: demo_wallet
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.1.0
+
+  camera: ^0.11.0+2
+
+  google_mlkit_text_recognition: ^0.14.0
+
+  flutter_typeahead: ^5.2.0
+
+  shared_preferences: ^2.3.3
+
+  provider: ^6.1.2
+
+  permission_handler: ^11.3.1
+
+  uuid: ^4.5.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/icons/scan-card.png
+    - assets/icons/credit-card.png
+    - assets/icons/visa-card.png
+    - assets/icons/master-card.png
+    - assets/icons/default-card.png
+    - assets/me.png
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
